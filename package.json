@@ -1,0 +1,22 @@
+{
+  "name": "graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall": "npx only-allow pnpm"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/server": "^4.10.2",
+    "@faker-js/faker": "^8.4.1",
+    "@types/faker": "^6.6.9",
+    "@types/pg": "^8.11.4",
+    "faker": "^6.6.6",
+    "graphql": "^16.8.1",
+    "pg": "^8.11.4"
+  }
+}
